@@ -79,8 +79,8 @@ Follow these instructions to run DecentDL locally on your PC:
     <li>Clone this repository using <code>git clone</code>.</li>
     <li>Go to backend direcotry and run <code>npm install</code>.</li>
     <li>In backend direcotry open the file .env and update the values <code>ACCESSTOK, DEF_ID, POLICY_ID<code>.</li>
-    <li>Update the file <code>.env with values for ACCESSTOK, DEF_ID, POLICY_ID<code> from Trinsic Studio.</li>
-    <li>Run the proejct using: <code>npm install<code>.</li>
+    <li>Update the file <code>.env</code> with values for <code>ACCESSTOK, DEF_ID, POLICY_ID</code> from Trinsic Studio.</li>
+    <li>Run the proejct using: <code>npm install</code>.</li>
     <li>Go to frontend direcotry and run <code>npm install</code>.</li>
     <li>Go to URL of frontend <code>http://localhost3000</code>.</li>
     <li>Now you have the application running
