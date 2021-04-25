@@ -65,3 +65,8 @@ Below is a list of APIs that are currently supported by the system:
 | /api         	| /verify         	   | GET        	|  reqId       	|  verification (Object)                 	|
 <br>
 
+<h2> DecentDL UI </h2>
+
+![Issuer UI](images/issuer.png?raw=true) <br>
+
+![Verifier UI](images/verifier.png?raw=true) <br>
