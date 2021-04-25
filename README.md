@@ -70,3 +70,11 @@ Below is a list of APIs that are currently supported by the system:
 ![Issuer UI](images/issuer.png?raw=true) <br>
 
 ![Verifier UI](images/verifier.png?raw=true) <br>
+
+<h2> Run Instructions </h2>
+
+Follow these instructions to run DecentDL locally on your PC:
+
+<ol>
+    <li>Clone this repository using `git clone</li>
+</ol>
