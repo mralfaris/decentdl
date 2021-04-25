@@ -16,6 +16,14 @@ their Driver's License data.
     <li> Newly introduced <strong>privacy regulations</strong> are endangering companies reputation when they deal with person’s data. </li>
 </ul>
 
+<h2> Solution </h2>
+DecentDL is custom solution that interfaces with <a href="https://trinsic.id/">Trinsic.id</a> which encapsulates the hosting of a Blockchain network using Hyperledger Aries. The solution is composed of:
+<ol>
+    <li> Issuer screen to issue Driver's License for a user. </li>
+    <li> Verify screen to request access to Driver's License attributes for a user. </li>
+    <li> Backend code to handle calls and APIs interactions with Trinsic. </li>
+    <li> Trinsic Wallet Mobile App to store identity and approve access to consumers requests. </li>
+</ol>
 
 
 
