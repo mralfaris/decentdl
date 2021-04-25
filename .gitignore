@@ -6,6 +6,8 @@ backend/node_modules/
 frontend/.DS_Store
 backend/.DS_Store
 
+.DS_Store
+
 # Logs
 logs
 *.log
