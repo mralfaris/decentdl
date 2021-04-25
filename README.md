@@ -85,5 +85,5 @@ Follow these instructions to run DecentDL locally on your PC:
     <li>Go to URL of frontend <code>http://localhost3000</code>.</li>
     <li>Now you have the application running
         Backend: <code>http://localhost8000</code>.
-        Frontend: <code>http://localhost3000</code></li>  
+       </li>  
 </ol>
