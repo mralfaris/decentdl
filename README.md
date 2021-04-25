@@ -46,6 +46,22 @@ Trinsic Studio is used to build an Organization that represents the issuing auth
             <li><strong>License Type:</strong> The license type either Vehicle or Motorbike.</li>
             <li><strong>License Restrictions:</strong> Any restrictions on the licenses ex: Eyeglasses</li>
         </ol>
-    <li> <strong>Verification:</strong> A template that allows consumers to verify a predefined set of attribute by issuing a request. The fields allowed in the template are Name and date of birth</li>
+    <li> <strong>Verification:</strong> A template that allows consumers to verify a predefined set of attribute by issuing a request. The fields allowed in the template are Name and Date of Birth</li>
 </ul>
+
+<h2> Solution Design </h2>
+
+In this phase, the solution is supporting Driver's License issuance process with a limited set of fields and driver's license attribute verification process with a limited set of fields. In the future, the solution can be expanded to support more fields.
+
+Here is a sequence diagram that depicts the Driver's License issuance process:
+
+![Sequence Diagram](diagrams/DecentDL-Sequence-Diagram.png?raw=true) <br>
+
+Below is a list of APIs that are currently supported by the system:
+| Endpoint     	| Path            	   | HTTP method |  Input                                                                   	| Output                        	|
+|--------------	|----------------------|-------------|--------------------------------------------------------------------------	|-------------------------------	|
+| /api        	| /issue         	   | POST        | Name,<br> Date of Birth,<br> Type,<br> Restrictions                      	| OfferURL,<br> OfferData        	|
+| /api         	| /requestVerification | GET        | None  	|  verificationId,<br>verificationRequestUrl,<br>verificationRequestData                 	|
+| /api         	| /verify         	   | GET        	|  reqId       	|  verification (Object)                 	|
+<br>
 
