@@ -28,23 +28,23 @@ DecentDL is custom solution that interfaces with <a href="https://trinsic.id/">T
 <h2> Solution Details </h2>
 DecentDL is built using these technologies:
 <ul>
-    <li> Node.js </li>
-    <li> Express </li>
-    <li> Axios </li>    
-    <li> Trinsic </li>
-    <li> React </li>
-    <li> React Bootstrap </li>
-    <li> QR Code library </li>
+    <li> <a href="https://nodejs.org/en/">Node.js</a>: Used to build backend and frontend. </li>
+    <li> <a href="https://expressjs.com">Express<a>: Used to define backend APIs. </li>
+    <li> <a href="https://www.npmjs.com/package/axios">Axios</a>: For building Backend API routes. </li>    
+    <li> <a href="https://docs.streetcred.id/docs/">Trinsic</a>: Trinsic APIs and SDK to issue credential and verify it. </li>
+    <li> <a href="https://reactjs.org">React</a>: To build the frontend of DecentlDL. </li>
+    <li> <a href="https://react-bootstrap.github.io">React Bootstrap</a>: Ready made componenets for frontend. </li>
+    <li> <a href="https://www.npmjs.com/package/qrcode">QR Code library</a>: Converts data to QR Code. </li>
 </ul>
 
 Trinsic Studio is used to build an Organization that represents the issuing authority (ex. Service Ontario). Using the studio these entities were defined:
 <ul>
     <li> <strong>Credentials:</strong> A template called DecentDL that represents the driver's license attributes: </li>
         <ol>
-            <li>Name: Full name of the driver's license holder.</li>
-            <li>Date of Birth: Date of birth of the driver's license holder.</li>
-            <li>License Type: The license type either Vehicle or Motorbike.</li>
-            <li>License Restrictions: Any restrictions on the licenses ex: Eyeglasses</li>
+            <li><strong>Name:</strong> Full name of the driver's license holder.</li>
+            <li><strong>Date of Birth:</strong> Date of birth of the driver's license holder.</li>
+            <li><strong>License Type:</strong> The license type either Vehicle or Motorbike.</li>
+            <li><strong>License Restrictions:</strong> Any restrictions on the licenses ex: Eyeglasses</li>
         </ol>
     <li> <strong>Verification:</strong> A template that allows consumers to verify a predefined set of attribute by issuing a request. The fields allowed in the template are Name and date of birth</li>
 </ul>
