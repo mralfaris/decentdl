@@ -76,5 +76,5 @@ Below is a list of APIs that are currently supported by the system:
 Follow these instructions to run DecentDL locally on your PC:
 
 <ol>
-    <li>Clone this repository using `git clone`</li>
+    <li>Clone this repository using `git clone`.</li>
 </ol>
