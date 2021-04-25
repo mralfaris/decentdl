@@ -3,6 +3,9 @@ backend/node_mdoules/*
 frontend/node_modules/
 backend/node_modules/
 
+frontend/.DS_Store
+backend/.DS_Store
+
 # Logs
 logs
 *.log
